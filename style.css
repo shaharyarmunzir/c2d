@@ -1,0 +1,925 @@
+
+body {
+
+    background-color: rgb(18, 18, 18);
+    position: relative;
+}
+
+body::before {
+    content: "";
+    background: url("image/1520146548345.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* navbar_start */
+nav {
+    background: rgb(0, 0, 0);
+    color: gold;
+    border-bottom: 2px solid gold;
+    
+}
+
+#navbarNav ul li a {
+    padding-left: 10px;
+
+}
+nav img{
+    width: 15%;
+    margin-right:25% ;
+
+}
+.navbar-nav{
+    margin-right:15% ;
+}
+.dropdown-menu{
+    background-color: gold;
+    color: black;
+}
+/* logo */
+#logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo a {
+    padding-left: 7px;
+}
+
+/* navbar_end */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white;
+}
+
+/* main */
+#maine {
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+#maine h3 {
+    font-size: 1.5rem;
+    color: silver;
+}
+
+#maine p {
+    font-size: 1.3rem;
+    color: rgb(174, 174, 174);
+    display: flex;
+    width: 60%;
+}
+
+#maine h1 {
+    font-weight: bold;
+    font-size: 3.2rem;
+
+}
+
+#b1 {
+    background-color: gold;
+    color: rgb(0, 0, 0);
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    border: 2px solid gold;
+}
+
+#b1:hover {
+    background-color: rgba(226, 180, 14, 0.348);
+}
+
+#b2 {
+    background-color: rgba(192, 192, 192, 0.431);
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(237, 235, 235);
+}
+
+#b2:hover {
+    background-color: rgba(241, 207, 19, 0.253);
+}
+
+#cont {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+}
+
+#cont h5 {
+    padding-top: 50px;
+    color: black;
+}
+
+#cont h2 {
+    color: black;
+    margin-bottom: 50px;
+
+}
+
+.card {
+    background-color: rgb(201, 201, 201);
+    background-color: black;
+    width: 25%;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 5px solid gold;
+    justify-content: center;
+
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: gold;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(254, 254, 254);
+}
+
+.card a {
+    font-size: 1.4rem;
+    text-align: center;
+    color: gold;
+}
+
+#cards {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card:hover {
+
+    box-shadow: 0 2px 6px 4px rgb(250, 218, 38);
+}
+
+#b3 {
+    margin-top: 20px;
+    margin-bottom: 50%;
+    padding: 10px 50px 10px 50px;
+    background-color: gold;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* main_end */
+#yellow0{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.yelow {
+    width: 70%;
+    height: 30vh;
+    background-color: gold;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding-top: 4%;
+    border-radius: 0% 0% 40% 40%;
+}
+
+#white {
+    width: 100%;
+    height: 15vh;
+    background-color: whitesmoke;
+}
+
+.yellow1 h1,
+h4 {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: black;
+}
+
+#both {
+    /* padding-top: 50px; */
+    background-color: black;
+    display: flex;
+}
+
+#both .ilm {
+    width: 40%;
+    margin-top: 50px;
+}
+
+#both .ilm h5 {
+    font-size: 1rem;
+}
+
+#both .ilm h6 {
+    font-size: 1rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#both .ilm h1 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+
+
+}
+
+#both .ilm h3 {
+    font-size: 1.5rem;
+
+
+}
+
+#logos {
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+#whiteblack {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    z-index: -1;
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#black {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: black;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+#black h1 {
+
+    color: gold;
+    font-size: 2.5rem;
+}
+
+#black p {
+    font-weight: bold;
+}
+
+#ad {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+
+
+
+#ye {
+    width: 100%;
+    height: 40vh;
+    background-color: gold;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#ye h1 {
+    font-weight: bold;
+    color: black;
+}
+
+#ye a {
+    display: flex;
+    text-decoration: none;
+    background-color: black;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 25px 45px 25px 45px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px 4px rgb(75, 75, 75);
+}
+
+#card2 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    width: 20%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.card1 p {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card1 a {
+    display: flex;
+    text-decoration: none;
+    background-color: gold;
+    height: 30px;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 25px 45px 25px 45px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* box-shadow: 0 2px 6px 4px rgb(75, 75, 75); */
+}
+
+.imglog {
+    width: 100%;
+    height: 190px;
+    background-color: gold;
+    border-radius: 100% 100% 100% 100%;
+    display: flex;
+}
+
+.imglog img {
+    width: 100%;
+    border-radius: 50px 50px 100% 100%;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.88);
+
+}
+
+.footer1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top:50px ;
+}
+.footer11{
+    display: flex;
+    padding-right: 50px;
+}
+.footer111 {
+   margin-left: 20px;
+}
+.footer111 p{
+    font-size: 1.5rem;
+}
+.footer111 h5{
+    font-size: 1rem;
+}
+#mid{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 10px;
+}
+.footer2{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 90px;
+    padding-bottom: 30px;
+}
+.sa{
+    width: 18%;
+}
+.sa img{
+    width: 100%;
+}
+.sa h3{
+    color: gold;
+    padding-bottom: 23px;
+    padding-top: 20px;
+}
+.sa p{
+    margin: 0;
+}
+.sa1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.sa2{
+    text-decoration: underline;
+    padding-left: 26px;
+}
+.sa3{
+    display: flex;
+}
+.footer3{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid gold;
+    display: flex;
+    justify-content: center; 
+    gap: 150px;
+    font-size: 1.2rem;
+    padding-top: 40px;
+}
+.f1 h6{
+    color: gold;
+    font-size: 1.2rem;
+}
+.f2 {
+    display: flex;
+    gap: 20px;
+}
+.l{
+    margin-top: 20px;
+}
+#wbak{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: -10px;
+}
+
+.wbaki1{
+    width: 40%;
+    height: auto;
+    background-color: gold;
+    padding: 10px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+
+}
+.wbaki2{
+    width: 40%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    color: gold;
+    padding: 10px;
+    border-top: 5px solid rgb(255, 179, 0);
+    border-bottom: 5px solid rgb(255, 179, 0);
+    border-right: 5px solid rgb(255, 179, 0);
+}
+.wbaki2 h1{
+    color: gold;
+    font-size: 2rem;
+}
+.wbaki1 h1{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+#saa{
+    width: 100%;
+}
+#saa p{
+    color: black;
+    font-size: 1.5rem;
+}
+#saa h3{
+    color: black;
+    font-size: 1.5rem;
+}
+#teamss{
+    background: url("image/lback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.teamm{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teamm img{
+    width: 100%;
+    border-radius: 10px;
+}
+.nam {
+    width: 80%;
+    background-color: gold;
+    padding: 5px;
+    margin-top: -10%;
+}
+.nam1 {
+    color: black;
+    font-size: 1.8rem;
+}
+.nam2 {
+    color: black;
+    font-size: 0.8rem;
+}
+  #mainnnn {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+        }
+        .maincccc {
+            background-color: white;
+            width: auto;
+            height: 20vh;
+            overflow: auto;
+            display: flex;
+            gap: 10px;
+        }
+        .mainccccc img {
+            width: auto;
+            height: auto;
+        }
+
+
+        .maincccc::-webkit-scrollbar {
+            width: 5px;            
+          }
+          
+          .maincccc::-webkit-scrollbar-track {
+            background: black;      
+          }
+          
+          .maincccc::-webkit-scrollbar-thumb {
+            background-color: gold;   
+            border-radius: 20px;      
+            border: 3px solid black;  
+          }
+        body::-webkit-scrollbar {
+            width: 12px;            
+          }
+          
+          body::-webkit-scrollbar-track {
+            background: gold;      
+          }
+          
+          body::-webkit-scrollbar-thumb {
+            background-color: rgb(0, 0, 0);   
+            border-radius: 20px;      
+            border: 3px solid gold;  
+          }
+
+#abouta{
+    width: 100%;
+    height: 50vh;
+    background: url("image/Anoutl.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#abouta h1{
+   font-weight: bold;
+   font-size: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding-top: 100px;
+   color: gold;
+}
+#abouta p{
+    color: gold;
+   font-size: 1.2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+}
+#imli{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#imli img{ 
+    width: 18%;
+    margin-left: 20px;
+}
+.imlis{
+    width: 80%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.navbar-toggler{
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    #maine {
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+
+    #maine h3 {
+        font-size: 0.99rem;
+        color: silver;
+    }
+
+    #maine p {
+        font-size: 0.99rem;
+        color: rgb(174, 174, 174);
+        display: flex;
+        width: 90%;
+    }
+
+    #maine h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+
+    }
+
+    .card {
+        width: 95%;
+    }
+
+    #cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+
+    }
+
+    .yelow {
+        width: 90%;
+        height: auto;
+        background-color: gold;
+        justify-content: center;
+        /* margin-top: -20%; */
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #white {
+        width: 100%;
+        height: 10vh;
+        background-color: whitesmoke;
+    }
+
+  
+
+    #both {
+        padding-top: 15px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #both .im img {
+        width: 100%;
+
+
+
+    }
+
+    #both .ilm {
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    #logos {
+        display: flex;
+        gap: 0px;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    #ad {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+        justify-content: center;
+    }
+
+    #black {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        background-color: black;
+        justify-content: center;
+        padding: 20px 8px 9px 6px;
+        align-items: center;
+
+    }
+
+    #black h1 {
+
+        color: gold;
+        font-size: 1.7rem;
+        font-weight: bold;
+
+    }
+
+  
+    #ye {
+        width: 100%;
+        height: 40vh;
+        background-color: gold;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #ye h1 {
+        font-weight: bold;
+        color: black;
+    }
+
+    #ye a {
+        display: flex;
+        text-decoration: none;
+        background-color: black;
+        height: 30px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 25px 45px 25px 45px;
+        color: white;
+        border-radius: 30px;
+        font-weight: bold;
+        box-shadow: 0 2px 6px 4px rgb(75, 75, 75);
+    }
+    .card1 {
+        width: 70%;
+    }
+
+    .footer1{
+        flex-direction: column;
+    }
+    #mid{
+        border-left: none;
+        border-right: none;
+        padding-left: 0px;
+    }
+    #mid p{
+        font-size: 1.3rem;
+    }
+    .footer2{
+        flex-direction: column;
+    }
+    .sa{
+        width: 100%;
+    }
+    .sa img{
+        width: 100%;
+    }
+    .footer3{
+        display: flex;
+        flex-direction: column; 
+        gap: 0px;
+    }
+    .f2 {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .f2 p{
+        gap: 0px;
+        font-size: 1rem;
+       
+    }
+    #wbak{
+        flex-direction: column;
+    }
+    
+    .wbaki1{
+        width: 90%;
+        height: auto;
+        background-color: gold;
+        padding: 10px;
+        border-top: 5px solid black;
+        border-bottom: 0px solid black;
+        border-right: 5px solid black;
+        border-left: 5px solid black;
+    
+    }
+    .wbaki2{
+        width: 90%;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        color: gold;
+        padding: 10px;
+        border-top: 0px solid rgb(255, 179, 0);
+        border-left: 5px solid rgb(255, 179, 0);
+        border-bottom: 5px solid rgb(255, 179, 0);
+        border-right: 5px solid rgb(255, 179, 0);
+    }
+    #wbak{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    #saaa h5,p{
+        font-size: 1rem;
+    }
+    #saaa p{
+        color: gold;
+        font-size: 1rem;
+    }
+    #saaa h3{
+        color: gold;
+        font-size: 1.5rem;
+    }
+    #saaaa h5,p{
+        font-size: 1rem;
+    }
+    #saaaa p{
+        color: gold;
+        font-size: 1rem;
+    }
+    #saaaa h3{
+        color: gold;
+        font-size: 1.5rem;
+    }
+    #saaaaa h5,p{
+        font-size: 1rem;
+    }
+    #saaaaa p{
+        color: gold;
+        font-size: 1rem;
+    }
+    #saaaaa h3{
+        color: gold;
+        font-size: 1.5rem;
+    }
+    nav img{
+        width: 50%;
+    
+    
+    }
+    .teamm{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #abouta{
+        height: 70vh;
+    }
+    #imli img{ 
+        width: 25%;
+        margin-left: 0px;
+    }
+}
